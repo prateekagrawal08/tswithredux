@@ -12,5 +12,5 @@ Parameters: This method accepts a single parameter iterable which takes an array
 
 Return values: It follows some rules to return a single promise: 
 
-
+https://github.com/prateekagrawal08/tswithredux/blob/main/src/api/examples-promise.js
 
