@@ -1,4 +1,4 @@
-# JavaScript Promise all() Method
+#JavaScript Promise all() + redux + middleware
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
@@ -14,3 +14,10 @@ Return values: It follows some rules to return a single promise:
 
 https://github.com/prateekagrawal08/tswithredux/blob/main/src/api/examples-promise.js
 
+import { createAsyncThunk
+
+Hooks fo redux:
+import { useAppSelector, useAppDispatch } from '../../app/hooks';
+
+
+import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
