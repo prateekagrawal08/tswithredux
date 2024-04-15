@@ -10,6 +10,7 @@ import {
   selectCount,
 } from './counterSlice';
 import styles from './Counter.module.css';
+import { promiseExample } from '../../api/examples-promise';
 
 export function Counter() {
   const count = useAppSelector(selectCount);
@@ -52,7 +53,7 @@ export function Counter() {
         </button>
         <button
           className={styles.button}
-          onClick={() => dispatch(incrementByAmount(incrementValue))}
+          onClick={() => promiseExample()}
         >
          Call promise example
         </button>
